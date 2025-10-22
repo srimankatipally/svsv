@@ -1,0 +1,25 @@
+values.yaml
+   x=5
+   y=3
+
+us-values.yaml
+   x=9
+   
+eu-values.yaml
+   y=10
+
+in-values.yaml
+   x=100
+   y=200
+
+value.yaml + us-values.yaml 
+   x=9
+   y=3
+
+value.yaml + eu-values.yaml 
+   x=5
+   y=10
+
+value.yaml + in-values.yaml 
+  x=100
+  y=200
