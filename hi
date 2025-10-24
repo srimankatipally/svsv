@@ -9,3 +9,4 @@ When we edit or tweak a Terraform module, where in the back end is the firework 
 If I need to change the internal architecture (e.g., adding one more cluster), what is the correct process and configuration structure I should follow to implement that?
 If I make a change in one location, are there credentials needed for that change to execute, and is it possible that this single change could unintentionally affect five other clusters?
 For Flux, I understand it needs the cluster information and the source. If I change either the cluster or the source, what internal process should I follow to ensure I can test and verify the resulting impact?
+Is the US cluster configuration stored in a different repository or branch? the Git repo or path where the US-specific configuration resides? What’s the  mapping between Azure resource groups/subscriptions and Git repositories?
