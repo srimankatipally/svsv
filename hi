@@ -1,3 +1,11 @@
 kubectl get kustomizations.kustomize.toolkit.fluxcd.io -A
 kubectl get helmreleases.helm.toolkit.fluxcd.io -A
 kubectl get helmcharts.source.toolkit.fluxcd.io -A
+
+
+In my early discussion shabe is telling me that prod sub is different for Open Telementy  other prod sub, where I can find this details? If I change a specific component (e.g., Keycloak) in the Dev environment, where exactly should I come and change the configuration, and why is that the correct file or location versus another potential file?
+While I understand the tech stack from the repository, I need clarity on the runtime system. Can we review the specifics of how the architecture is structured and how components are connecting in the proprietary system?
+When we edit or tweak a Terraform module, where in the back end is the firework happening, meaning where does the actual change occur?
+If I need to change the internal architecture (e.g., adding one more cluster), what is the correct process and configuration structure I should follow to implement that?
+If I make a change in one location, are there credentials needed for that change to execute, and is it possible that this single change could unintentionally affect five other clusters?
+For Flux, I understand it needs the cluster information and the source. If I change either the cluster or the source, what internal process should I follow to ensure I can test and verify the resulting impact?
